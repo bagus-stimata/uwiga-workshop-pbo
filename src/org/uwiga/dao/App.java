@@ -7,6 +7,10 @@ import org.uwiga.model.Customer;
 
 public class App {	
 	public App(){
+		
+		//INI TAMBAHAN
+		System.out.println("Tambahan");
+		
 		//objek dao
 		CustomerDao customerManager = new CustomerDaoImpl();		
 		//MEMASUKKAN DATA
